@@ -1,2 +1,114 @@
-# NavData
-Free Navigation and Charts for you flight simulators
+# Navigraph Charts Clone
+
+A free, open-source alternative to Navigraph Charts for flight simulation enthusiasts. This application provides access to aviation charts, airport information without requiring expensive subscriptions.
+Currently in Beta
+
+## Features
+
+- **Airport Search**: Search for airports by ICAO code (names would be in the next update)
+- **Multiple Chart Types**: Access various chart types including:
+  - VFR Sectional Charts
+  - Terminal Area Charts
+  - IFR Enroute Charts (Low/High)
+  - Approach Plates
+  - Airport Diagrams
+- **Free Data Sources**: Utilizes free aviation data from:
+  - FAA (Federal Aviation Administration)
+  - ChartFox
+  - OpenFlightMaps
+  - PDF (Still not used trying to fix stuff)
+- **Cross-Platform**: Built with Flutter for Windows, with future Android/iOS support
+- **Offline Capability**: Download charts for offline use
+- **Flight Planning**: Basic flight planning tools and navigation data
+
+## Screenshots
+
+*Screenshots will be added once the application is built and tested*
+
+## Installation
+*App in developpement*
+### Prerequisites
+
+- Flutter SDK (3.22.1 or later)
+- Dart SDK
+- Windows 10/11 (for Windows builds)
+
+## Usage
+
+1. **Search for Airports**: Use the search box in the left panel to find airports by ICAO code (e.g., "KJFK") or name (e.g., "Kennedy")
+
+2. **Select Chart Type**: Choose from various chart types in the chart types section
+
+3. **View Charts**: Select an airport and chart type to view available charts
+
+4. **Download Charts**: Use the download button to save charts for offline use
+
+## Data Sources
+
+This application uses free and open aviation data sources:
+
+- **FAA VFR Raster Charts**: Free sectional and terminal area charts from the Federal Aviation Administration
+- **ChartFox**: Community-driven free aviation charts for flight simulation
+- **OpenFlightMaps**: Open-source aeronautical data under public license
+
+## Legal Notice
+
+This application is intended for flight simulation use only and should not be used for real-world navigation. Always use official, current charts for actual flight operations.
+
+The application respects the terms of use of all data sources and only accesses publicly available, free aviation data.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+### Development Setup
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is open-source and available under the MIT License. See the LICENSE file for more details.
+
+## Disclaimer
+
+This software is provided "as is" without warranty of any kind. The developers are not responsible for any damages or issues that may arise from using this software. This application is for educational and flight simulation purposes ONLY.
+
+## Support
+
+If you find this application useful and would like to support its development, please consider:
+
+- Starring the repository
+- Reporting bugs and suggesting features
+- Contributing code improvements
+- Sharing with other flight simulation enthusiasts
+
+## Roadmap
+
+- [ ] Implement actual chart display functionality(In progress)
+- [ ] Add chart caching and offline storage(In progress)
+- [ ] Integrate real-time weather data(In progress)
+- [ ] Implement chart annotations and measurements(In progress)
+- [ ] Add mobile support (Android/iOS)(In the future)
+- [ ] Integrate with flight simulators(In progress)
+- [ ] Add user preferences and settings(In progress)
+- [ ] Implement chart updates and notifications(In progress)
+
+## Technical Details
+
+- **Framework**: Flutter 3.22.1
+- **Language**: Dart
+- **Platforms**: Windows (primary), Android/iOS (planned)
+- **Architecture**: Clean architecture with separation of concerns
+- **Data Sources**: REST APIs and direct file downloads
+- **Storage**: Local file system with SQLite for metadata
+
+## Acknowledgments
+
+- FAA for providing free aviation charts[USA]
+- ChartFox community for free flight simulation charts
+- OpenFlightMaps association for open aeronautical data
+- Flutter team for the excellent cross-platform framework
