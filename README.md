@@ -1,4 +1,6 @@
 <img width="256" height="256" alt="app_icon-1" src="https://github.com/user-attachments/assets/4b75e6ca-9f07-450f-a349-e802d89914ea" />
+
+
 # Navigraph Charts Clone
 
 A free, open-source alternative to Navigraph Charts for flight simulation enthusiasts. This application provides access to aviation charts, airport information without requiring expensive subscriptions.
