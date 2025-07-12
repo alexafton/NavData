@@ -3,8 +3,8 @@
 
 # Navigraph Charts Clone
 
-A free, open-source alternative to Navigraph Charts for flight simulation enthusiasts. This application provides access to aviation charts, airport information without requiring expensive subscriptions.
-Currently in Beta
+A free, open-source for flight simulation enthusiasts. This application provides access to aviation charts, airport information and Weather information without requiring expensive subscriptions.
+[Currently in Beta]
 
 ## Features
 
@@ -29,7 +29,7 @@ Currently in Beta
 *Screenshots will be added once the application is built and tested.*
 
 ## Installation
-*App in developpement.*
+Click on release and you will be able to download the .exe (for android and IOS in the future it would be at the App store and Google play)
 ### Prerequisites
 
 - Flutter SDK (3.22.1 or later)
@@ -50,9 +50,9 @@ Currently in Beta
 
 This application uses free and open aviation data sources:
 
-- **FAA VFR Raster Charts**: Free sectional and terminal area charts from the Federal Aviation Administration
 - **ChartFox**: Community-driven free aviation charts for flight simulation
 - **OpenFlightMaps**: Open-source aeronautical data under public license
+- **PDF**: Some charts i have them via PDF everything is up to date
 
 ## Legal Notice
 
@@ -91,14 +91,14 @@ If you find this application useful and would like to support its development, p
 
 ## Roadmap
 
-- [ ] Implement actual chart display functionality(In progress)
-- [ ] Add chart caching and offline storage(In progress)
-- [ ] Integrate real-time weather data(In progress)
-- [ ] Implement chart annotations and measurements(In progress)
-- [ ] Add mobile support (Android/iOS)(In the future)
-- [ ] Integrate with flight simulators(In progress)
-- [ ] Add user preferences and settings(In progress)
-- [ ] Implement chart updates and notifications(In progress)
+- [ X ] Implement actual chart display functionality(In progress)
+- [ X ] Add chart caching and offline storage(In progress)
+- [ X ] Integrate real-time weather data(In progress)
+- [ X ] Implement chart annotations and measurements(In progress)
+- [ X ] Add mobile support (Android/iOS)(In the future)
+- [ X ] Integrate with flight simulators(In progress)
+- [ X ] Add user preferences and settings(In progress)
+- [ X ] Implement chart updates and notifications(In progress)
 
 ## Technical Details
 
@@ -111,7 +111,6 @@ If you find this application useful and would like to support its development, p
 
 ## Acknowledgments
 
-- FAA for providing free aviation charts[USA]
 - ChartFox community for free flight simulation charts
 - OpenFlightMaps association for open aeronautical data
 - Flutter team for the excellent cross-platform framework
