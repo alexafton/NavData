@@ -26,10 +26,10 @@ Currently in Beta
 
 ## Screenshots
 
-*Screenshots will be added once the application is built and tested*
+*Screenshots will be added once the application is built and tested.*
 
 ## Installation
-*App in developpement*
+*App in developpement.*
 ### Prerequisites
 
 - Flutter SDK (3.22.1 or later)
