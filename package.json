@@ -1,0 +1,26 @@
+{
+  "name": "flight-sim-app",
+  "version": "1.0.0",
+  "description": "A flight simulator application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "npx electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "28.0.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2",
+    "electron-rebuild": "^3.2.9"
+  },
+  "build": {
+    "appId": "com.example.flightsimapp",
+    "win": {
+      "target": "portable"
+    }
+  }
+}
